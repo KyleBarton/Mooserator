@@ -45,3 +45,4 @@ Just taken directly from the npx command "npx create-moose-app my-moose-app"
       - `thread 'main' panicked at src/cli/routines.rs:418:10:
         called ``Result::unwrap()`` on an `Err` value: BadResponse("Code: 516. DB::Exception: panda: Authentication failed: password is incorrect, or there is no user with such name. (AUTHENTICATION_FAILED) (version 24.1.3.31 (official build))")
         note: run with ``RUST_BACKTRACE=1`` environment variable to display a backtrace`
+- Might be nice to have an `npm run teardown` or something?
