@@ -11,6 +11,19 @@ A really basic frontend. In this example, literally just a button that says "cli
 **my-moose-app**
 Just taken directly from the npx command "npx create-moose-app my-moose-app"
 
+### Doing the needful
+
+- From `my-moose-app`:
+  - `npm install && npm run dev`
+- From `webapp`
+  - Run `http-server` or some other simple webserver
+- In Browser
+  - Go to `localhost:8080` or wherever `http-server` is hosting `index.html`
+    - Click the button a bunch of times
+  - Go to `localhost:3001` (aka the moose console)
+    - `tables` -> `ClickedActivity_0_0`
+    - Query and see the clicked events
+
 ### What I needed ahead of time
 
 - Docker
