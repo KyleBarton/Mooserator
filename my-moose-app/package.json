@@ -2,14 +2,14 @@
   "name": "my-moose-app",
   "version": "0.0",
   "scripts": {
-    "dev": "moose-cli dev",
+    "moose": "moose-cli",
     "build": "moose-cli build --docker",
-    "moose": "moose-cli"
+    "dev": "moose-cli dev"
   },
   "dependencies": {},
   "devDependencies": {
+    "typescript": "^5.4.0",
     "@514labs/moose-cli": "latest",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.0"
+    "ts-node": "^10.9.2"
   }
 }
